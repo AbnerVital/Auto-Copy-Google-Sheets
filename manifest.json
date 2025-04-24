@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Copy Google Sheets Cell",
+    "version": "1.0",
+    "description": "Copia o conteúdo da célula automaticamente ao clicar.",
+    "permissions": ["clipboardWrite", "scripting", "activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://docs.google.com/spreadsheets/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
