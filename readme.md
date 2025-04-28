@@ -12,12 +12,5 @@
 
 ---
 
-## 📁 Estrutura do Projeto
-
-auto-copy-sheets-extension/
-├── manifest.json         # Configuração da extensão
-├── content.js            # Script de cópia de célula
-├── icon.png              # Ícone da extensão (opcional)
-└── README.md             # Documentação do projeto
 
 
