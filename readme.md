@@ -61,6 +61,3 @@ Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas 
 
 ---
 
-## 📜 **Licença**
-
-Distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais informações.
