@@ -1,4 +1,4 @@
-function showToast(message) {
+function showToast(message) { 
   const toast = document.createElement("div");
   toast.innerText = message;
   Object.assign(toast.style, {
@@ -27,7 +27,7 @@ function showToast(message) {
   }, 1500);
 }
 
-document.addEventListener("click", () => {
+document.addEventListener("contextmenu", (event) => {
   setTimeout(() => {
     const activeCell = document.querySelector('.cell-input');
     if (activeCell) {
@@ -44,4 +44,6 @@ document.addEventListener("click", () => {
       showToast("Copiado!");
     }
   }, 100);
+
+  event.preventDefault(); // Impede o menu de contexto padrão
 });
